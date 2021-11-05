@@ -1,5 +1,19 @@
 
 
+# En NodeJS/Express applikation med SQlite database og Sequelize ORM
+
+Et spil, som viser flere koncepter indenfor JS-programmering på bpde frontend og backend:
+
+1. Cookies
+3. Backend - Persistens med SQlite
+4. Backend - Brug af ORM'en sequelize - med migrations
+5. Frontend - Web Workers
+6. Frontend - Fetch API
+
+
+<img src="https://raw.githubusercontent.com/andracs/clickerSpil/master/public/images/Gr%C3%B8nsagskliker.png" alt="Screenshot" style="max-width:200px;"/>
+
+
 ## Disse kommandoer har jeg brugt for at skabe et NodeJS/Express projekt
 
 `mkdir clickerSpil` 
@@ -40,7 +54,7 @@ Laver mapperne config, models, migrations, seeders. Du kan læse mere om det på
 Genererer model og migration for Spil-objekter
 
 `npx sequelize-cli db:migrate`
-Kører migration, dvs. skaber Spils tabellen i databasen
+Kører migration, dvs. skaber Spils tabellen i databasen. Tilføj --debug efter kommandoen, hvis du får fejl. 
 
 `npx sequelize-cli db:migrate:undo:all`
 Med denne kommando kan du rulle migration tilbage, og slette alle tabeller
@@ -49,7 +63,7 @@ Med denne kommando kan du rulle migration tilbage, og slette alle tabeller
 Seeding er at fylde databasen med initial data. Denne kommando laver en seeder-fil i seeder-mappen, som du skal fylde dummy-data i. 
 
 `npx sequelize-cli db:seed:all`
-Denne kører seedingprocessen, og fylder dummydata i tabellen.
+Denne kører seedingprocessen, og fylder dummydata i tabellen. Tilføj --debug efter kommandoen, hvis du får fejl. 
 
 ## Interessant
 - Data binding med DOM
