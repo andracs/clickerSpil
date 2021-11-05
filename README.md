@@ -1,3 +1,13 @@
+#Grønsagsklikerspil
+![Screenshot](https://raw.githubusercontent.com/andracs/clickerSpil/master/public/images/Gr%C3%B8nsagskliker.png "Lækkert.").
+
+Et spil, som viser flere koncepter indenfor JS-programmering på bpde frontend og backend:
+
+1. Cookies
+3. Backend - Persistens med SQlite
+4. Backend - Brug af ORM'en sequelize - med migrations
+5. Frontend - Web Workers
+6. Frontend - Fetch API
 
 
 ## Disse kommandoer har jeg brugt for at skabe et NodeJS/Express projekt
