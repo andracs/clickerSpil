@@ -1,0 +1,17 @@
+{
+  "development": {
+    "database": "database_development",
+    "storage": "./db/clickDev.sqlite",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "database": "database_test",
+    "storage": "./db/clickTest.sqlite",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "database": "database_production",
+    "storage": "./db/clickproduction.sqlite",
+    "dialect": "sqlite"
+  }
+}

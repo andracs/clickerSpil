@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+  </head>
+
+  <body>
+    <h1><%= title %></h1>
+    <p><button id="guleRodsKnap">Plant en gulerod</button>
+      <button id="addPlanteMaskine">Lav en maskine</button> (<span id="antalPlantemaskiner">0</span> i alt)
+      </p>
+    <h1>Antal gulerødder: <span id="antalGulerod">0</span></h1>
+    <h2>Cash: <span id="pengepung">0</span></h2> 
+    <p> 
+        Tilgængelige frøposer <span id="antalFrøposer">0</span> <br> 
+        Pris på frøposer: <span id="prisFrø">0</span> <br> 
+        Pris på gulerødder: <span id="prisGulerødder">0</span> <br>
+        Pris på maskiner: <span id="prisMaskine">0</span> 
+    </p>
+    <button id="gemCookie">Gem i cookie</button>
+    <button id="readCookie">Læs fra cookie</button>
+    <br />
+    <br />
+    <input type="text" id="name" placeholder="Skriv dit navn" value="Andy" />
+    <button id="gemiDatabase">Gem i databasen</button> 
+    <span id="gemt"></span>
+    <script src="javascripts/client.js">
+    </script>
+  </body>
+</html>
