@@ -1,5 +1,4 @@
 
-<img src="https://raw.githubusercontent.com/andracs/clickerSpil/master/public/images/Gr%C3%B8nsagskliker.png" alt="Screenshot" style="max-width:300px;"/>
 
 # En NodeJS/Express applikation med SQlite database og Sequelize ORM
 
@@ -10,6 +9,9 @@ Et spil, som viser flere koncepter indenfor JS-programmering på bpde frontend o
 4. Backend - Brug af ORM'en sequelize - med migrations
 5. Frontend - Web Workers
 6. Frontend - Fetch API
+
+
+<img src="https://raw.githubusercontent.com/andracs/clickerSpil/master/public/images/Gr%C3%B8nsagskliker.png" alt="Screenshot" style="max-width:200px;"/>
 
 
 ## Disse kommandoer har jeg brugt for at skabe et NodeJS/Express projekt
