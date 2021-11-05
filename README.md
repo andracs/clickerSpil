@@ -52,7 +52,7 @@ Laver mapperne config, models, migrations, seeders. Du kan læse mere om det på
 Genererer model og migration for Spil-objekter
 
 `npx sequelize-cli db:migrate`
-Kører migration, dvs. skaber Spils tabellen i databasen
+Kører migration, dvs. skaber Spils tabellen i databasen. Tilføj --debug efter kommandoen, hvis du får fejl. 
 
 `npx sequelize-cli db:migrate:undo:all`
 Med denne kommando kan du rulle migration tilbage, og slette alle tabeller
@@ -61,7 +61,7 @@ Med denne kommando kan du rulle migration tilbage, og slette alle tabeller
 Seeding er at fylde databasen med initial data. Denne kommando laver en seeder-fil i seeder-mappen, som du skal fylde dummy-data i. 
 
 `npx sequelize-cli db:seed:all`
-Denne kører seedingprocessen, og fylder dummydata i tabellen.
+Denne kører seedingprocessen, og fylder dummydata i tabellen. Tilføj --debug efter kommandoen, hvis du får fejl. 
 
 ## Interessant
 - Data binding med DOM
