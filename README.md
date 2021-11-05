@@ -1,5 +1,7 @@
-#Grønsagsklikerspil
-![Screenshot](https://raw.githubusercontent.com/andracs/clickerSpil/master/public/images/Gr%C3%B8nsagskliker.png "Lækkert.").
+
+<img src="https://raw.githubusercontent.com/andracs/clickerSpil/master/public/images/Gr%C3%B8nsagskliker.png" alt="Screenshot" style="max-width:300px;"/>
+
+# En NodeJS/Express applikation med SQlite database og Sequelize ORM
 
 Et spil, som viser flere koncepter indenfor JS-programmering på bpde frontend og backend:
 
