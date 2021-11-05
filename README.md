@@ -5,8 +5,8 @@
 `mkdir clickerSpil` 
 Laver mappen til projektet 
 
-`express clickerSpil`
-Installerer express i mappen
+`express --git -e clickerSpil/`
+Installerer express i mappen (--git tilføjer .gitignore, og -e bruger [EJS](https://ejs.co/) Embedded Javascript Templates som template engine i stedet for PUG)
 
 `npm install`
 Installerer packages (dependencies)
@@ -21,6 +21,8 @@ Denne skal du kun køre, hvis ikke du har nodemon installeret
 Nodemon kan bruges i stedet for npm start, den genstarter serveren hver gang jeg gemmer en fil. Lækkert :-)
 
 ### Jeg har valgt at køre med sqlite og ORM'en sequelize, samt migrations
+
+Jeg vil generelt bruge denne GUI for at arbejde med databasen: https://sqlitebrowser.org/dl/ 
 
 `npm install --save sqlite3`
 Installerer sqlite3 - en filbaseret SQL database
