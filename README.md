@@ -1,6 +1,6 @@
 
 
-## Disse kommandoer har jeg brugt for at skabe projektet med (bolieprlate)
+## Disse kommandoer har jeg brugt for at skabe et NodeJS/Express projekt
 
 `mkdir clickerSpil` 
 Laver mappen til projektet 
@@ -34,14 +34,20 @@ Installerer en CLI som bruges til at køre de følgende sequelize kommandoer
 `sequelize-cli init` 
 Laver mapperne config, models, migrations, seeders. Du kan læse mere om det på https://sequelize.org/master/manual/migrations.html 
 
+`npx sequelize-cli model:generate --name Spil --attributes name:string,gulerod:integer,cash:integer,maskiner:integer`
+Genererer model og migration for Spil-objekter
 
+`npx sequelize-cli db:migrate`
+Kører migration, dvs. skaber Spils tabellen i databasen
 
+`npx sequelize-cli db:migrate:undo:all`
+Med denne kommando kan du rulle migration tilbage, og slette alle tabeller
 
+`npx sequelize-cli seed:generate --name demo-spil`
+Seeding er at fylde databasen med initial data. Denne kommando laver en seeder-fil i seeder-mappen, som du skal fylde dummy-data i. 
 
-`
-
-
-
+`npx sequelize-cli db:seed:all`
+Denne kører seedingprocessen, og fylder dummydata i tabellen.
 
 ## Interessant
 - Data binding med DOM
